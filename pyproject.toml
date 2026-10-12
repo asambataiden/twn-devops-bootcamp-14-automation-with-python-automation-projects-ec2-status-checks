@@ -1,0 +1,9 @@
+[project]
+name = "automation-projects-main"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "boto3>=1.42.97",
+    "boto3-stubs~=1.42.97",
+    "django-scheduler>=0.10.1",
+]
